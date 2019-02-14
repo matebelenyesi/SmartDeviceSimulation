@@ -1,0 +1,9 @@
+hibernate\HibernateUtil.class
+hibernate\Background.class
+hibernate\User.class
+hibernate\App.class
+hibernate\Icon.class
+hibernate\MenuPoint.class
+hibernate\SmartDevice.class
+hibernate\SubMenuPoint.class
+hibernate\Theme.class

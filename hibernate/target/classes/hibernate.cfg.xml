@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">org.h2.Driver</property>
+        <property name="connection.url">jdbc:h2:mem:test;DB_CLOSE_DELAY=-1</property>
+        <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+        <property name="hbm2ddl.auto">create</property>
+        <mapping class="hibernate.User"/>
+        <mapping class="hibernate.MenuPoint"/>
+        <mapping class="hibernate.SubMenuPoint"/>
+        <mapping class="hibernate.Theme"/>
+        <mapping class="hibernate.Background"/>
+        <mapping class="hibernate.App"/>
+        <mapping class="hibernate.Icon"/>
+    </session-factory>
+</hibernate-configuration>
